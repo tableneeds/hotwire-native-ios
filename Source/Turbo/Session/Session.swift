@@ -186,7 +186,7 @@ extension Session: VisitDelegate {
         guard !visit.hasCachedSnapshot else { return }
         guard !visit.isPageRefresh else { return }
 
-        visit.visitable.showVisitableActivityIndicator()
+        // visit.visitable.showVisitableActivityIndicator()
     }
 
     func visitWillLoadResponse(_ visit: Visit) {
